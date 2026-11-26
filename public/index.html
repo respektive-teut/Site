@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна — Платівка</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+<header class="header"><a class="brand" href="index.html">ПЛАТІВКА / музичний довідник</a><nav aria-label="Основна навігація"><a class="button secondary" href="index.html">Головна</a><a class="button secondary" href="tracks.html">Каталог</a><a class="button secondary" href="favorites.html">Обране</a><a class="button secondary" href="playlists.html">Плейлисти</a><a class="button secondary" href="login.html">Вхід</a></nav></header>
+<main>
+<section class="intro"><p class="eyebrow">МУЗИЧНИЙ КАТАЛОГ / 2026</p><h1>Знайдіть свою музику</h1><p class="lead">Виконавці, гурти, альбоми та треки — в одному місці.</p><form class="search" action="tracks.html" method="get">
+    <input type="search" name="q" aria-label="Назва музичного об’єкта" placeholder="Введіть назву...">
+    <button class="button" type="submit">Пошук</button>
+    <a class="button secondary" href="tracks.html#filters">Фільтри</a>
+</form><nav class="categories" aria-label="Категорії"><a class="button secondary" href="artists.html">Виконавці</a><a class="button secondary" href="groups.html">Гурти</a><a class="button secondary" href="albums.html">Альбоми</a><a class="button secondary" href="tracks.html">Треки</a></nav></section>
+<section><h2>Знайомство з каталогом</h2><div class="records"><article class="record" data-id="coldplay" data-genre="Alternative rock" data-country="Велика Британія" data-year="1997">
+    <div class="record-info"><span class="record-kind">Гурт</span><h3><a href="coldplay.html">Coldplay</a></h3><p>Chris Martin, Jonny Buckland, Guy Berryman, Will Champion · 1997</p></div>
+    <a class="button secondary" href="coldplay.html">Детальніше</a>
+</article><article class="record" data-id="rush" data-genre="Alternative rock" data-country="Велика Британія" data-year="2002">
+    <div class="record-info"><span class="record-kind">Альбом</span><h3><a href="rush.html">A Rush of Blood to the Head</a></h3><p>Coldplay · 54:08 · 2002</p></div>
+    <a class="button secondary" href="rush.html">Детальніше</a>
+</article><article class="record" data-id="clocks" data-genre="Alternative rock" data-country="Велика Британія" data-year="2002">
+    <div class="record-info"><span class="record-kind">Трек</span><h3><a href="clocks.html">Clocks</a></h3><p>Coldplay · 5:07 · 2002</p></div>
+    <a class="button secondary" href="clocks.html">Детальніше</a>
+</article></div></section>
+</main>
+<footer>Платівка · Музичний довідник · 2026</footer>
+</div>
+</body>
+</html>

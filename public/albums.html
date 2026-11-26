@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Альбоми — Платівка</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+<header class="header"><a class="brand" href="index.html">ПЛАТІВКА / музичний довідник</a><nav aria-label="Основна навігація"><a class="button secondary" href="index.html">Головна</a><a class="button secondary" href="tracks.html">Каталог</a><a class="button secondary" href="favorites.html">Обране</a><a class="button secondary" href="playlists.html">Плейлисти</a><a class="button secondary" href="login.html">Вхід</a></nav></header>
+<main>
+<section><p class="eyebrow">МУЗИЧНИЙ КАТАЛОГ / 2026</p><h1>Альбоми</h1><form class="search" action="albums.html" method="get">
+    <input type="search" name="q" aria-label="Назва музичного об’єкта" placeholder="Введіть назву...">
+    <button class="button" type="submit">Пошук</button>
+    <a class="button secondary" href="albums.html#filters">Фільтри</a>
+</form><nav class="categories" aria-label="Категорії"><a class="button secondary" href="artists.html">Виконавці</a><a class="button secondary" href="groups.html">Гурти</a><a class="button " href="albums.html">Альбоми</a><a class="button secondary" href="tracks.html">Треки</a></nav></section>
+<section class="catalog-layout"><aside id="filters" class="panel"><h2>Фільтри</h2><form id="filter-form"><label>Жанр<select name="genre"><option value="">Усі жанри</option><option>Alternative rock</option></select></label><label>Країна<select name="country"><option value="">Усі країни</option><option>Велика Британія</option><option>США</option></select></label><label>Рік<select name="year"><option value="">Усі роки</option><option>2000</option><option>2002</option></select></label><button class="button" type="submit">Застосувати</button><button class="button secondary" type="reset">Скинути</button></form></aside><section><h2>Результати пошуку</h2><p id="count" aria-live="polite"></p><div class="records" id="results"><article class="record" data-id="rush" data-genre="Alternative rock" data-country="Велика Британія" data-year="2002">
+    <div class="record-info"><span class="record-kind">Альбом</span><h3><a href="rush.html">A Rush of Blood to the Head</a></h3><p>Coldplay · 54:08 · 2002</p></div>
+    <a class="button secondary" href="rush.html">Детальніше</a>
+</article><article class="record" data-id="hybrid" data-genre="Alternative rock" data-country="США" data-year="2000">
+    <div class="record-info"><span class="record-kind">Альбом</span><h3><a href="hybrid.html">Hybrid Theory</a></h3><p>Linkin Park · 2000</p></div>
+    <a class="button secondary" href="hybrid.html">Детальніше</a>
+</article></div><p id="empty" class="panel" hidden>Нічого не знайдено. Змініть параметри пошуку.</p></section></section>
+</main>
+<footer>Платівка · Музичний довідник · 2026</footer>
+</div>
+</body>
+</html>
